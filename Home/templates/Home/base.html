@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+  <title> Carator</title>
+  <link href="{%  static 'base/css/bootstrap.css' %}" rel="stylesheet">
+  {% block css %} {% endblock %}
+</head>
+<body>
+<div id = "background">
+{% block body %}
+{% endblock %}
+</div>
+</body>
+</html>
